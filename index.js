@@ -5,21 +5,21 @@ const dotenv = require("dotenv");
 const connectDB = require("./config/mongoose");
 const bodyParser = require("body-parser");
 
-// =============== dotEnv configuration and dataBase connection call ====================
+//dotEnv configuration and dataBase connection call...............
 dotenv.config();
 connectDB();
 
-// urlEncoded
+// urlEncoded............
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static("./assets"));
 
-// ======= EJS ========
+//ejs......
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
-// Load Router
+// Routes...........
 app.use("/", require("./routes/index"));
 
 app.listen(process.env.PORT, (error) => {

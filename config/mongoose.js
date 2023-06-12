@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+require("dotenv").config();
 
 // Store connection in connectDB and call it in index.js
 const connectDB = async () => {
