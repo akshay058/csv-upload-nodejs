@@ -7,7 +7,7 @@ const FILES_PATH = path.join("/uploads/files");
 
 const asyncHandler = require("express-async-handler");
 
-// Home.........
+// Home........
 const home = asyncHandler(async (req, res) => {
   try {
     let files = await File.find({});
