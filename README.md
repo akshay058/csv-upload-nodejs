@@ -4,7 +4,7 @@ This is a simple CSV upload tool that can be used to upload CSV files to a serve
 
 ## Tech Stack USed
 
-HTML, CSS, BOOTSTRAP, EXPRESS, NODE JS
+HTML, CSS, BOOTSTRAP, EXPRESS, NODE JS..
 
 ## Features :
 
