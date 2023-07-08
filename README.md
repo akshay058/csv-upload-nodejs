@@ -1,6 +1,6 @@
 ## About The Project
 
-This is a simple CSV upload tool that can be used to upload CSV files to a server and easily accessable to show data associated with each uploaded file.
+This is a simple CSV upload tool that can be used to upload CSV files to a server and easily accessable to show data associated with each uploaded files.
 
 ## Tech Stack USed
 
